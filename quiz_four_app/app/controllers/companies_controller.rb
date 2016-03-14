@@ -5,7 +5,7 @@ class CompaniesController < ApplicationController
 
   def index
     respond_to do |format|
-      @company = Company.order("created_at DESC")
+      @company = Company.order("created_at ASC")
       format.json{render json: @company.select(:id, :name)}
     end
   end
