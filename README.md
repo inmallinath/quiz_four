@@ -26,7 +26,7 @@ Write a Rails application that has a company model and a product model. It shoul
 }
 ```
 ## SOLUTION
-The solution is posted in the `quiz_four_app`.
+The solution is posted in the `quiz_four_app` folder.
 
 ## Question 4
 Build an HTML page separate from your Rails application with jQuery that connects via AJAX to the Rails application and then lists all the companies with the products they have separated by commas. (20%)
@@ -51,3 +51,8 @@ Redo Part 4 and Part 5 with React.js (with jQuery being used only for the AJAX p
 
 ## SOLUTION
 Partial solution of fetching data from the server and displaying companies.
+
+## QUESTION - BONUS 2
+Redo part 3 by using Node.js (+15%)
+
+## SOLUTION
