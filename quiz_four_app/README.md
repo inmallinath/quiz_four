@@ -26,4 +26,10 @@ Write a Rails application that has a company model and a product model. It shoul
 }
 ```
 ## SOLUTION
-  
+The solution is posted in the `quiz_four_app`.
+
+## Question 4
+Build an HTML page separate from your Rails application with jQuery that connects via AJAX to the Rails application and then lists all the companies with the products they have separated by commas. (20%)
+
+## SOLUTION
+`client.html` and `client.js` were coded to provide this solution while running the rails app to receive the JSON. Open `client.html` to see the list of companies and products separated by commas.
