@@ -33,3 +33,21 @@ Build an HTML page separate from your Rails application with jQuery that connect
 
 ## SOLUTION
 `client.html` and `client.js` were coded to provide this solution while running the rails app to receive the JSON. Open `client.html` to see the list of companies and products separated by commas.
+
+## QUESTION - BONUS 1
+Redo Part 2 using API versioning and have display JSON without adding .json to the end. The url should be something like: http://localhost:3000/api/v1/campaigns (+10%)
+
+## SOLUTION
+New controllers for versioning the api along with changes in routes file were implemented.
+
+## Question 5
+Enable "liking" a company by clicking "like" link near its title. You don't need need to worry about user authentication and permissions at this point. Just increment a "like" counter by 1 and show that counter beside the title on the company listing. (10%)
+
+## SOLUTION
+Tried to implement the solution, but could not get it to work.
+
+## QUESTION - BONUS 3
+Redo Part 4 and Part 5 with React.js (with jQuery being used only for the AJAX part) (+20%)
+
+## SOLUTION
+Partial solution of fetching data from the server and displaying companies.
