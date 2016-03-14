@@ -26,3 +26,4 @@ Write a Rails application that has a company model and a product model. It shoul
 }
 ```
 ## SOLUTION
+  
