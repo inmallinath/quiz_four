@@ -37,3 +37,6 @@ Build an HTML page separate from your Rails application with jQuery that connect
 
 ## QUESTION - BONUS 1
 Redo Part 2 using API versioning and have display JSON without adding .json to the end. The url should be something like: http://localhost:3000/api/v1/campaigns (+10%)
+
+## SOLUTION
+New controllers for versioning the api along with changes in routes file were implemented.
